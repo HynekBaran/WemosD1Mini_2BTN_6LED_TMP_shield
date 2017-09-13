@@ -104,8 +104,6 @@ ESP8266 module</description>
 <pad name="D0" x="-10.16" y="2.54" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
 <pad name="A0" x="-10.16" y="5.08" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
 <pad name="RESET" x="-10.16" y="7.62" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<text x="-2.54" y="-6.35" size="1.4224" layer="21">WeMos.cc
-D1 mini</text>
 <text x="12.7" y="-17.78" size="1.4224" layer="25" align="bottom-right">&gt;Name</text>
 <wire x1="-6.8326" y1="9.4234" x2="-6.8326" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="9.144" y1="9.4234" x2="9.1694" y2="9.4234" width="0.127" layer="21"/>
@@ -133,20 +131,9 @@ D1 mini</text>
 <text x="11.43" y="2.54" size="0.762" layer="25" rot="R180" align="center-left">D1</text>
 <text x="11.43" y="5.08" size="0.762" layer="25" rot="R180" align="center-left">RX</text>
 <text x="11.43" y="7.62" size="0.762" layer="25" rot="R180" align="center-left">TX</text>
-<wire x1="-2.54" y1="-19.05" x2="5.08" y2="-19.05" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="-19.05" x2="5.08" y2="-13.97" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="-13.97" x2="-2.54" y2="-13.97" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="-13.97" x2="-2.54" y2="-19.05" width="0.2032" layer="21"/>
 <text x="1.27" y="12.7" size="1.4224" layer="25" align="center">ANTENNA
 KEEP CLEAR</text>
-<text x="1.27" y="-16.51" size="1.016" layer="25" align="center">USB
-MICRO</text>
-<wire x1="-6.35" y1="-12.7" x2="-10.16" y2="-12.7" width="0.2032" layer="21"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.2032" layer="21"/>
-<wire x1="-10.16" y1="-17.78" x2="-6.35" y2="-17.78" width="0.2032" layer="21"/>
-<wire x1="-6.35" y1="-17.78" x2="-6.35" y2="-12.7" width="0.2032" layer="21"/>
-<text x="-8.255" y="-15.24" size="0.635" layer="25" align="center">RESET
-SWITCH</text>
+<rectangle x1="-11.43" y1="-19.05" x2="-8.89" y2="-12.7" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -6730,7 +6717,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </class>
 </classes>
 <parts>
-<part name="WEMOS1" library="esp8266modules" deviceset="WEMOS-D1-MINI" device=""/>
+<part name="_" library="esp8266modules" deviceset="WEMOS-D1-MINI" device=""/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="LED0" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
@@ -6756,7 +6743,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <text x="116.84" y="55.88" size="1.778" layer="91" rot="R90">D1 is reserved for relay module</text>
 </plain>
 <instances>
-<instance part="WEMOS1" gate="D1" x="20.32" y="55.88"/>
+<instance part="_" gate="D1" x="20.32" y="55.88"/>
 <instance part="S1" gate="1" x="81.28" y="71.12" rot="R270"/>
 <instance part="S2" gate="1" x="96.52" y="71.12" rot="R270"/>
 <instance part="LED0" gate="G$1" x="109.22" y="78.74"/>
@@ -6781,7 +6768,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <nets>
 <net name="VCC" class="1">
 <segment>
-<pinref part="WEMOS1" gate="D1" pin="3V3"/>
+<pinref part="_" gate="D1" pin="3V3"/>
 <wire x1="5.08" y1="48.26" x2="-5.08" y2="48.26" width="0.1524" layer="91"/>
 <label x="-5.08" y="48.26" size="1.778" layer="95"/>
 </segment>
@@ -6835,7 +6822,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 <junction x="86.36" y="68.58"/>
 <wire x1="86.36" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="68.58" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="WEMOS1" gate="D1" pin="GND"/>
+<pinref part="_" gate="D1" pin="GND"/>
 <wire x1="38.1" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
 <junction x="86.36" y="50.8"/>
 <pinref part="S2" gate="1" pin="S1"/>
@@ -6899,7 +6886,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </net>
 <net name="D5" class="0">
 <segment>
-<pinref part="WEMOS1" gate="D1" pin="D5"/>
+<pinref part="_" gate="D1" pin="D5"/>
 <wire x1="5.08" y1="58.42" x2="-5.08" y2="58.42" width="0.1524" layer="91"/>
 <label x="-5.08" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -6911,7 +6898,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </net>
 <net name="D6" class="0">
 <segment>
-<pinref part="WEMOS1" gate="D1" pin="D6"/>
+<pinref part="_" gate="D1" pin="D6"/>
 <wire x1="5.08" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
 <label x="-5.08" y="55.88" size="1.778" layer="95"/>
 </segment>
@@ -6928,7 +6915,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </net>
 <net name="D7" class="0">
 <segment>
-<pinref part="WEMOS1" gate="D1" pin="D7"/>
+<pinref part="_" gate="D1" pin="D7"/>
 <wire x1="-5.08" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
 <label x="-5.08" y="53.34" size="1.778" layer="95"/>
 </segment>
@@ -6943,7 +6930,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </net>
 <net name="D4" class="0">
 <segment>
-<pinref part="WEMOS1" gate="D1" pin="D4"/>
+<pinref part="_" gate="D1" pin="D4"/>
 <wire x1="38.1" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
 <label x="45.72" y="53.34" size="1.778" layer="95"/>
 </segment>
@@ -6955,7 +6942,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </net>
 <net name="D3" class="0">
 <segment>
-<pinref part="WEMOS1" gate="D1" pin="D3"/>
+<pinref part="_" gate="D1" pin="D3"/>
 <wire x1="38.1" y1="55.88" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
 <label x="48.26" y="55.88" size="1.778" layer="95"/>
 </segment>
@@ -6967,7 +6954,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </net>
 <net name="D2" class="0">
 <segment>
-<pinref part="WEMOS1" gate="D1" pin="D2"/>
+<pinref part="_" gate="D1" pin="D2"/>
 <wire x1="38.1" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
 <label x="45.72" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -6987,7 +6974,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </net>
 <net name="D0" class="0">
 <segment>
-<pinref part="WEMOS1" gate="D1" pin="D0"/>
+<pinref part="_" gate="D1" pin="D0"/>
 <wire x1="5.08" y1="60.96" x2="-5.08" y2="60.96" width="0.1524" layer="91"/>
 <label x="-5.08" y="60.96" size="1.778" layer="95"/>
 </segment>
@@ -7007,7 +6994,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </net>
 <net name="A0" class="0">
 <segment>
-<pinref part="WEMOS1" gate="D1" pin="A0"/>
+<pinref part="_" gate="D1" pin="A0"/>
 <wire x1="5.08" y1="63.5" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
 <label x="-5.08" y="63.5" size="1.778" layer="95"/>
 </segment>
@@ -7022,7 +7009,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </net>
 <net name="D1" class="0">
 <segment>
-<pinref part="WEMOS1" gate="D1" pin="D1"/>
+<pinref part="_" gate="D1" pin="D1"/>
 <wire x1="38.1" y1="60.96" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
 <label x="45.72" y="60.96" size="1.778" layer="95"/>
 </segment>
@@ -7037,7 +7024,7 @@ Modified by Rikard Qvarnström&lt;/author&gt;</description>
 </net>
 <net name="D8" class="0">
 <segment>
-<pinref part="WEMOS1" gate="D1" pin="D8"/>
+<pinref part="_" gate="D1" pin="D8"/>
 <wire x1="5.08" y1="50.8" x2="-5.08" y2="50.8" width="0.1524" layer="91"/>
 <label x="-5.08" y="50.8" size="1.778" layer="95"/>
 </segment>
