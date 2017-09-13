@@ -88,22 +88,22 @@ ESP8266 module</description>
 <wire x1="-6.83" y1="9.416" x2="-6.83" y2="15.216" width="0.127" layer="21"/>
 <wire x1="-6.83" y1="15.216" x2="9.17" y2="15.216" width="0.127" layer="21"/>
 <wire x1="-6.83" y1="9.416" x2="9.17" y2="9.416" width="0.127" layer="21"/>
-<pad name="5V" x="12.7" y="-10.16" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="GND" x="12.7" y="-7.62" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="D4" x="12.7" y="-5.08" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="D3" x="12.7" y="-2.54" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="D2" x="12.7" y="0" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="D1" x="12.7" y="2.54" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="RX" x="12.7" y="5.08" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="TX" x="12.7" y="7.62" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="3V3" x="-10.16" y="-10.16" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="D8" x="-10.16" y="-7.62" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="D7" x="-10.16" y="-5.08" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="D6" x="-10.16" y="-2.54" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="D5" x="-10.16" y="0" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="D0" x="-10.16" y="2.54" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="A0" x="-10.16" y="5.08" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="RESET" x="-10.16" y="7.62" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
+<pad name="5V" x="12.7" y="-10.16" drill="1.016" diameter="1.8288" shape="octagon"/>
+<pad name="GND" x="12.7" y="-7.62" drill="1.016" diameter="1.8288" shape="octagon"/>
+<pad name="D4" x="12.7" y="-5.08" drill="1.016" diameter="1.8288" shape="octagon"/>
+<pad name="D3" x="12.7" y="-2.54" drill="1.016" diameter="1.8288" shape="octagon"/>
+<pad name="D2" x="12.7" y="0" drill="1.016" diameter="1.8288" shape="octagon"/>
+<pad name="D1" x="12.7" y="2.54" drill="1.016" diameter="1.8288" shape="octagon"/>
+<pad name="RX" x="12.7" y="5.08" drill="1.016" diameter="1.8288" shape="octagon"/>
+<pad name="TX" x="12.7" y="7.62" drill="1.016" diameter="1.8288" shape="octagon"/>
+<pad name="3V3" x="-10.16" y="-10.16" drill="1.016" diameter="1.8288" shape="octagon" rot="R180"/>
+<pad name="D8" x="-10.16" y="-7.62" drill="1.016" diameter="1.8288" shape="octagon" rot="R180"/>
+<pad name="D7" x="-10.16" y="-5.08" drill="1.016" diameter="1.8288" shape="octagon" rot="R180"/>
+<pad name="D6" x="-10.16" y="-2.54" drill="1.016" diameter="1.8288" shape="octagon" rot="R180"/>
+<pad name="D5" x="-10.16" y="0" drill="1.016" diameter="1.8288" shape="octagon" rot="R180"/>
+<pad name="D0" x="-10.16" y="2.54" drill="1.016" diameter="1.8288" shape="octagon" rot="R180"/>
+<pad name="A0" x="-10.16" y="5.08" drill="1.016" diameter="1.8288" shape="octagon" rot="R180"/>
+<pad name="RESET" x="-10.16" y="7.62" drill="1.016" diameter="1.8288" shape="octagon" rot="R180"/>
 <text x="12.7" y="-17.78" size="1.4224" layer="25" align="bottom-right">&gt;Name</text>
 <wire x1="-6.8326" y1="9.4234" x2="-6.8326" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="9.144" y1="9.4234" x2="9.1694" y2="9.4234" width="0.127" layer="21"/>
